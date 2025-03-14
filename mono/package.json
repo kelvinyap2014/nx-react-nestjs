@@ -2,7 +2,12 @@
   "name": "@mono/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "client": "npx nx serve client",
+    "api": "npx nx serve api",
+    "test": "npx nx run-many --all --target=test --parallel",
+    "lint": "npx nx run-many --all --target=lint --parallel"
+  },
   "private": true,
   "dependencies": {
     "@nestjs/common": "^10.0.2",
