@@ -16,6 +16,10 @@
 To run the dev server for your app, use:
 
 ```sh
+cd mono
+```
+
+```sh
 npx nx serve client
 ```
 
