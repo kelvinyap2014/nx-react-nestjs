@@ -6,7 +6,8 @@
     "client": "npx nx serve client",
     "api": "npx nx serve api",
     "test": "npx nx run-many --all --target=test --parallel",
-    "lint": "npx nx run-many --all --target=lint --parallel"
+    "lint": "npx nx run-many --all --target=lint --parallel",
+    "ci": "npm ci --legacy-peer-deps && npx nx run-many --all --skip-nx-cache --parallel -t lint build test"
   },
   "private": true,
   "dependencies": {
