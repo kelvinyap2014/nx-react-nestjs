@@ -1,4 +1,4 @@
-# Mono
+# Mono(repo) - NX with NestJS Demo
 
 <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
 
@@ -6,10 +6,15 @@
 
 [Learn more about this workspace setup and its capabilities](https://nx.dev/getting-started/tutorials/react-monorepo-tutorial?utm_source=nx_project&amp;utm_medium=readme&amp;utm_campaign=nx_projects) or run `npx nx graph` to visually explore what was created. Now, let's get you up to speed!
 
-## Finish your CI setup
+## Technology - NX, NestJS
 
-[Click here to finish setting up your workspace!](https://cloud.nx.app/connect/RUKqL8Nzqp)
+- This repo was created using NX (monorepo workspace management) with NestJS (application framework). For Java developers, NestJS is like Spring Boot, an opinionated, powerful and convenient application framework.
 
+- Here is a quick tutorial using NX to create workspace with NestJS microservice - [Setting up a Monorepo with NX for React & NestJS](https://dev.to/kevelopment/setting-up-a-monorepo-with-nx-for-react-nestjs-1o55)
+
+- Quick tutorial on NestJS - [Getting Started with NestJS](https://www.digitalocean.com/community/tutorials/getting-started-with-nestjs)
+
+- Easy to read NestJS official documentation - [Documentation | NestJS - A progressive Node.js framework](https://docs.nestjs.com/first-steps)
 
 ## Run tasks
 
